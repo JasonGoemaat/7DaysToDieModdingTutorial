@@ -5,7 +5,7 @@
       <stack_type value="replace"/><duration value="0"/>
       <effect_group>
         <passive_effect name="LockPickBreakChance" operation="perc_subtract" value="2"/>
-        <passive_effect name="LockPickTime" operation="perc_subtract" value=".8"/>
+        <passive_effect name="LockPickTime" operation="perc_subtract" value=".95"/>
       </effect_group>
     </buff>
   </append>
