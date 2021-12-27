@@ -200,3 +200,13 @@ but change the ingredients:
     </recipe>
 </configs>
 ```
+
+### localization.txt
+
+7 Days To Die uses the file `Configs/localization.txt` to enable displaying
+text in different languages.  When you add something and want to display text,
+you could add entries to this file.  To start, create the file and copy the
+first line from the game data file which is a header containing the column
+definitions.  Then for each new entry I copy a similar entry from the game's
+file and change the key and text I want to display.
+
