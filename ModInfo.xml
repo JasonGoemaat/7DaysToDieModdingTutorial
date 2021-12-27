@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="My Mod" />
+        <Description value="Sample tutorial mod" />
+        <Author value="Jason Goemaat" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

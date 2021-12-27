@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+buffLockpicker,buffs,Buff,,,Lockpicker,,Gott,Dios,Dieu,Dio,神,신,Bóg,Deus,Бог,Tanrı,上帝,不死之神,Dios
+buffLockpickerNameShort,buffs,Buff,,,Lockpicker,,Gott,Dios,Dieu,Dio,神,신,Bóg,Deus,Бог,Tanrı,上帝,不死之神,Dios
+buffLockpickerTooltip,buffs,Buff,,,Super lock picking,,Gott-Modus aktiviert,Modo Dios activado,God mode activé,Modalità Dio attivata,神モード有効,신 모드 활성화,Włączono tryb boga,Modo deus habilitado,Включен режим бога,Tanrı Modu Etkinleştirildi,上帝模式已启用,上帝模式已啟用,Modo Dios activado
+buffLockpickerDesc,buffs,Buff,,,80% faster picking and never break,,Gott-Modus aktiviert,Modo Dios activado,God mode activé,Modalità Dio attivata,神モード有効,신 모드 활성화,Włączono tryb boga,Modo deus habilitado,Включен режим бога,Tanrı Modu Etkinleştirildi,上帝模式已启用,上帝模式已啟用,Modo Dios activado

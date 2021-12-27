@@ -1,0 +1,6 @@
+<configs>
+  <remove xpath="/blocks/block[@name='frameShapes']/property[@name='Tags']" />
+
+  <!-- <block name="frameShapes" shapes="All"> -->
+  <!-- <property name="Tags" value="wood"/> -->
+</configs>

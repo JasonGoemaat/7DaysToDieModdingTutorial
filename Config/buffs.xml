@@ -1,0 +1,12 @@
+<configs>
+  <append xpath="/buffs">
+    <buff name="buffLockpicker" name_key="buffLockpicker" description_key="buffLockpickerDesc" icon="ui_game_symbol_add" icon_color="55,255,55">
+      <display_value_key value="buffLockpickerNameShort"/> <display_value value="xxx"/>
+      <stack_type value="replace"/><duration value="0"/>
+      <effect_group>
+        <passive_effect name="LockPickBreakChance" operation="perc_subtract" value="2"/>
+        <passive_effect name="LockPickTime" operation="perc_subtract" value=".8"/>
+      </effect_group>
+    </buff>
+  </append>
+</configs>
