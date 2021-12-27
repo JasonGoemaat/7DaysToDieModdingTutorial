@@ -1,0 +1,11 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="resourceRepairKit" count="1">
+      <ingredient name="resourceWood" count="1"/>
+    </recipe>
+
+    <recipe name="meleeToolRepairAwesome" count="1">
+      <ingredient name="resourceWood" count="1"/>
+    </recipe>
+  </append>
+</configs>

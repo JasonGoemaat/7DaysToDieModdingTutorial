@@ -1,0 +1,36 @@
+<configs>
+  <append xpath="/items">
+    <item name="meleeToolRepairAwesome">
+      <property name="Extends" value="meleeToolRepairT0StoneAxe" />
+
+      <property name="CustomIcon" value="meleeToolRepairT0StoneAxe"/>
+      <property name="CustomIconTint" value="ff5555"/>
+      <Property name="TintColor" value="5555ff" />
+
+      <!-- <property name="UnlockedBy" value="perkMiner69r"/> -->
+      <property class="Action0">
+        <!-- <property name="Stamina_usage" value="4.5"/> DEPRECATED stat -->
+        <property name="ToolCategory.harvestingTools" value="1" param1="1" />
+        <property name="ToolCategory.Disassemble" value="1" param1="1" />
+      </property>
+
+      <property class="Action1"> <!-- UseAction -->
+        <property name="Delay" value=".14"/> <!-- Repair actions still need the delay amount -->
+        <property name="Repair_amount" value="1000"/>
+      </property>
+      <effect_group name="meleeToolRepairT0StoneAxe">
+        <passive_effect name="EntityDamage" operation="base_set" value="600" tags="perkMiner69r"/>
+        <passive_effect name="BlockDamage" operation="base_set" value="521.5" tags="perkMiner69r"/>
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="210" tags="perkMiner69r,axe"/>
+        <passive_effect name="StaminaLoss" operation="base_set" value="0" tags="primary"/>
+        <passive_effect name="DegradationMax" operation="base_set" value="20000,20000" tier="1,6" tags="perkMiner69r"/>
+        <passive_effect name="DegradationPerUse" operation="base_set" value="0" tags="perkMiner69r"/>
+        <passive_effect name="MaxRange" operation="base_set" value="3.4" tags="perkMiner69r"/>
+        <passive_effect name="BlockRange" operation="base_set" value="4" tags="perkMiner69r"/>
+        <display_value name="dBlockRepairAmount" value="1000"/>
+        <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest,salvageHarvest"/>
+        <passive_effect name="DismemberChance" operation="base_set" value=".95"  tags="perkMiner69r"/>
+      </effect_group>
+    </item>
+  </append>
+</configs>
